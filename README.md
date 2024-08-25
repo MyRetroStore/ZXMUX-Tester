@@ -9,7 +9,7 @@ The ZXMUX chip (ZX8401 / PCF1306P / 40058) is a custom multiplexer chip designed
 As this is a custom chip, modern chip testers like the TL866 is unable to test them.  If you are troubleshooting a Spectrum and you don't have a known good working device to test the multiplexer in, this makes it difficult to troubleshoot.
 
 
-I built an shield for the Arduino Mega 2560 which tests the multiplexer as it's a fairly simple design that uses logic NAND/OR gates and digital multiplexers. I used this to also test the ZXMUX replacement chips that I sell on my store.
+I built an shield for the Arduino Mega 2560 which tests the multiplexer as it's a fairly simple design that uses logic NAND/OR gates and digital multiplexers. I use this to also test the ZXMUX replacement chips that I sell on my store.
 
 The gerber and HEX files are provided if you want to do a DIY.
 
