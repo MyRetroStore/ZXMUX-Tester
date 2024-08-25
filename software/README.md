@@ -10,7 +10,9 @@ The below avrdude command line example is for Linux. You may need to change the 
 
 ```
 avrdude -v -patmega2560 -P /dev/ttyACM1 -cwiring -D -U flash:w:zxmux-tester-1.0.hex:i
+```
 
+```
 avrdude: Version 7.1
          Copyright the AVRDUDE authors;
          see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
@@ -77,11 +79,11 @@ avrdude done.  Thank you.
 
 ```
 
-Once the firmware has been uploaded run Arduino IDE, or any other terminal comms program, and view the serial outout. 
+Once the firmware has been uploaded run Arduino IDE, or any other terminal comms program, and view the serial output at 115200 baud. 
 
-The testing will start and runn 20 passes checkking the CAS lines and multiplexer logic levels. 
+The testing will start and run 20 passes checking the CAS lines and multiplexer logic levels. 
 
-During the test the PASS/FAIL LED's will alternate showing the test is under way.
+During the test the PASS/FAIL LED's will alternate showing that the test is under way.
 At the end of the test the PASS or FAIL LED will display depending on the test outcome. 
 
 ![Serial Output](https://github.com/MyRetroStore/ZXMUX-Tester/blob/main/software/serial-output1.png?raw=true)
