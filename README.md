@@ -30,9 +30,10 @@ The output is displayed via the serial monitor at 115200 baud so it would also b
 See the software folder for instructions for uploading using avrdude
 
 Once the code is uploaded remove power from the Arduino and insert the chip to be tested. 
-Note the chip orientation and connnfirm it's correct before applying power. 
 
-Open the serial monitor and view outpout. The PASS/FAIL LED's will also alternate while under test, and at the end of the test the PASS / FAIL LED will show the result. 
+Note the chip orientation and confirm it's correct before applying power. 
+
+Open the serial monitor and view output. The PASS/FAIL LED's will also alternate while under test, and at the end of the test the PASS / FAIL LED will show the final result. 
 
 
 ##  Shield
